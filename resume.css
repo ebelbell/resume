@@ -4,6 +4,11 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p {
+    color:lightgrey;
+    margin: 0px;
+}
+
 .mainContainer{
     width: 800px;
     height: 900px;
