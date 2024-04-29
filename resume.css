@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainContainer{
+    width: 800px;
+    height: 900px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    margin: 50px  auto; /* Center the container horizontally */;
+    background-color: rgb(51, 53, 53);
+    box-shadow: 10px 10px 5px black;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    display: block; /* Prevent images from overlapping with other elements */
+    margin: 0 auto 20px; /* Center images horizontally and add bottom margin */
+    float: left;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+
+.title {
+    color: rgb(137, 200, 230);
+    text-align: left;
+    margin: 0px; /*Removes space from the title and name*/
+}
+
+#contactInfo {
+    text-align: left;
+    float: right;
+}
+
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background-color: gray; /* Set the color of the line */
+    opacity: 0.5; /* Set the opacity of the line */
+}
+
+.experience{
+    text-align: left;
+}
+
+.education{
+    text-align: left;
+}
